@@ -49,6 +49,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(classes = SampleAtmosphereApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
 @DirtiesContext
 public class SampleAtmosphereApplicationTests {
+	//Hey we are wroking here
 
 	private static Log logger = LogFactory.getLog(SampleAtmosphereApplicationTests.class);
 
