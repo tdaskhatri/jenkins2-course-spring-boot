@@ -61,7 +61,7 @@ public class ChatService {
 		public String encode(Message m) {
 			try {
 				return this.mapper.writeValueAsString(m);
-			}xxxx
+			}
 			catch (IOException ex) {
 				throw new IllegalStateException(ex);
 			}
